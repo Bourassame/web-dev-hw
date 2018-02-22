@@ -1,0 +1,7 @@
+responses.txt
+Data travels the internet by different IP addresses. Each IP address is like where the computer/connection lives. Like you and I do with our homes.
+The IP address is what's given to a computer, like how I mentioned above with how it's like our homes. A DNS address is a Domain Name Service which is used to connect an IP address to a server.
+"Cookies are small files which are stored on a user's computer. They are designed to hold a modest amount of data specific to a particular client and website, and can be accessed either by the web server or the client computer."
+the protocol
+the server name
+the resource ID
