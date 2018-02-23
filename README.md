@@ -1,7 +1,20 @@
-# My First README.md
+# My Intro-Web-Dev Homework Repo
+Meghan Bourassa
 
-Well, after going through this again and actually finishing it. I can say my problems were that I got myself confused and it took me three weeks to understand our website and Atom. But here I am! Finally finishing it! I'm also glad that Justine is meeting with me on Thursday to go over the second assignment and get me all on track so I can finally stop having problems.
+I have decided to take this class because in all honesty, I do need the upper division credits. At least, that was the original reason. I know a couple of people who have taken this class and they're the ones who brought this up to me. I thought I'd take a shot at it because I know nothing of coding or websites really. I figured, hey, you use a website everyday, learn how to create it. So, here I am! 
 
-I, now, somewhat understand the connection between Atom and the desktop version of GitHub. This way I'm able to have everything updated online! Progress! 
+- I'm amazed at how much is put into just one website
+- There's so much information tracked from your computer to a website destination, but it's effortless and quick
+- There's a lot of numbers in servers.
+---
 
-Thank you Justine!
+### My Resources
+
+*HTML & CSS* by **John Duckette**
+
+```markdown
+*HTML & CSS* by **John Duckette**
+```
+[Our Course Website](https://media-ed-online.github.io/intro-web-dev)
+
+![Course Banner](http:///bit.ly/2DIVG46)
