@@ -28,23 +28,23 @@
 
     <main>
       <!-- Step 1 -->
-
+<form action="http://www.example.com/register.php" method="get">
 
       <!-- Part 1: Basic Info -->
       <fieldset>
         <legend>Contact Details</legend>
         <!-- Step 2 (Name) -->
         <p>Name:
-          <input type="text" name="name" id="name-first" />
-          <input type="text" name="name" id="name-middle" />
-          <input type="text" name="name" id="name-last" />
+          <input type="text" name="name" id="name-first" placeholder="ab123456"/>
+          <input type="text" name="name" id="name-middle" placeholder="ab123456" maxlength="3" size="3" />
+          <input type="text" name="name" id="name-last" placeholder="ab123456" />
         </p>
-        <!-- Step 3 (E-mail) -->
+        <input type="email" e-mail="autofocused" placeholder="you@email.com">
         <p>E-mail:
 
         </p>
 
-        <!-- Step 4 (Date) -->
+        <input type="date" placeholder="mm/dd/yyyy">
         <p>Date of Birth:
 
         </p>
@@ -53,6 +53,8 @@
         <p>Have you taken a web design course before?</p>
             <input id="yes" type="radio" name="prev-course" value="y">
               <label for="yes">Yes</label>
+            <input id="no" type="radio" name="prev-course" value="n">
+                <label for="no">No</label>
 
       </fieldset>
 
@@ -70,39 +72,61 @@
           </figure>
           <p>What is your preferred browser?</p>
           <p><i>Choose one:</i></p>
-          <!-- Step 6 -->
+          <p>What is your preferred browser?</p>
+            <input type="radio" name="level" value="Firefox" />Firefox
+            <input type="radio" name="level" value="Chrome"checked />Chrome
+            <input type="radio" name="level" value="Internet Explorer" />Internet Explorer
+            <input type="radio" name="level" value="Safari" />Safari
+            <input type="radio" name="level" value="Opera" />Opera
+            <input type="radio" name="level" value="Microsoft Edge" />Microsoft Edge
+            <input type="radio" name="level" value="Other" />Other
+
 
         </div>
 
         <!-- LANGUAGES --><div id="languages">
-          <!-- Step 7 -->
+          <img src="./web-dev-hw/web-dev-hw/assignment-3/images/languages.png" alt="Chatting in Code" title="Languages" width="100" height="100">
 
           <p>What languages are you familiar with?</p>
           <p><i>Choose one or more:</i></p>
-            <!-- Step 8 -->
+            <input type="checkbox" name="level" value="HTML" />HTML
+            <input type="checkbox" name="level" value="CSS"checked />CSS
+            <input type="checkbox" name="level" value="JavaScript" />JavaScript
+            <input type="checkbox" name="level" value="PHP" />PHP
+            <input type="checkbox" name="level" value="Ruby" />Ruby
+            <input type="checkbox" name="level" value="Python" />Python
+            <input type="checkbox" name="level" value="Other" />Other
 
         </div>
 
         <!-- SHORT-ANSWER--><div id="short-answer">
-          <!-- Step 9 -->
+          <img src="./web-dev-hw/web-dev-hw/assignment-3/images/experience.png" alt="In The Know" title="In the Know" width="100" height="100">
 
           <p>Introduce yourself!</p>
 
           <p>“Hi! I'm a
             <select name="experience-level">
-            <!-- Step 10 -->
-
+              <option value="guppy">Guppy</option>
+              <option value="beginner">Beginner</option>
+              <option value="novice"selected>Novice</option>
+              <option value="journeyman">journeyman</option>
+              <option value="expert">expert</option>
+              <option value="wizard" >wizard</option>
+              <option value="CT">Connecticut</option>
             </select>
             web designer or developer.”</p>
 
           <p>“Last year, I spent
-            <!-- Step 11 -->
-            <input type="text" name="experince-time"
+
+            <input type="number" name="experince-time"
             id="experince-time" placeholder="##" min="0" max="12" size="2"/>
             months studying or working in this field.”</p>
 
-          <!-- Step 12 (textarea) -->
-          “I think my most difficult task will be...
+            <p>
+    Comments or Concerns:
+  <textarea name="comments" id="test-textarea" cols="30" rows="2">“I think my most difficult task will be...</textarea>
+  </p>
+
         </div>
       </fieldset>
 
@@ -110,21 +134,57 @@
       <br />
 
 
-      <!-- Part 3: Course Offerings -->
-      <!-- Steps 13-18 -->
+      <fieldset>
+        <legend>Clients Courses</legend>
+        <!-- Step 2 (Name) -->
+        <p>Spring Semester:
+          <input type="text" placeholder="M W"/>
+          <input type="time" placeholder="12:00 - 2:00"  />
+          <input type="number" placeholder="12/60" />
+        </p>
+        <p>
 
+        </p>
+        <p>Summer Session:
+          <input type="text" placeholder="F"/>
+          <input type="time" placeholder="9:30 - 5:30"  />
+          <input type="text" placeholder="FULL" />
+        </p>
+        <p>
 
+        </p>
+        <p>Autumn Semester:
+          <input type="text" placeholder="M W"/>
+          <input type="time" placeholder="12:00 - 2:00"  />
+          <input type="text" placeholder="FULL" />
+        </p>
+        <p>
+
+        </p>
+        <p>Winter Session:
+          <input type="text" placeholder="F"/>
+          <input type="time" placeholder="12:00 - 4:00"  />
+          <input type="number" placeholder="2/60" />
+        </p>
+
+        </p>
         <!-- Step 19 -->
         <table>
-          
+
         </table>
         <p>Yes! Sign me up for weekly e-mail alerts.
 
         </p>
-
-
+        <p>Special Session:
+          TBA
+          0/60
+        </p>
+        <p>Subscribe to our e-mail list:</p>
+     <input type="text" name="email" />
+     <input type="submit" name="subscribe" value="Subscribe" />
+</form>
     </main>
-    <!-- Step 20 -->
+    <img src="./web-dev-hw/web-dev-hw/assignment-3/images/registration-station.jpg" alt="Registration" title="Register Today" width="500" height="333" />
 
   </body>
 </html>
