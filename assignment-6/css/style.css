@@ -11,7 +11,7 @@ p {
 .main-container {
   border: solid;
   border-width: 5px;
-  border-color: blue !important;
+  border-color: hotpink !important;
 }
 
 
@@ -27,7 +27,7 @@ p {
 }
 
 .secondary-container p {
-  color: green;
+  color: powderblue;
 }
 
 .third-container {
