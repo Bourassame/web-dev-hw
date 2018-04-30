@@ -6,57 +6,6 @@ body {
 
 p {
   color: black;
-}
 
-.main-container {
-  border: solid;
-  border-width: 5px;
-  border-color: hotpink !important;
-}
-
-
-.main-container>p {
-  color: white;
-}
-
-.secondary-container {
-  border: solid;
-  border-width: 5px;
-  border-color: magenta;
-
-}
-
-.secondary-container p {
-  color: powderblue;
-}
-
-.third-container {
-  border: solid;
-  border-width: 5px;
-  border-color:blue;
-  opacity: 0.5;
-
-}
-
-#heading {
-  color: hotpink;
-}
-
-.image-1 {
-  border: solid;
-  border-width: 5px;
-  border-color: yellow;
-}
-
-.image-2{
-  border: dotted;
-  border-width: 5px;
-  border-color: orange;
-}
-
-.image-3 {
-  border: solid;
-  border-width: 5px;
-  border-color: yellow;
 }
 body
